@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80vw;
+            height: 80vh;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            margin: 50px auto;
+            display: flex;
+
+
+        }
+
+        .product {
+            width: 100%;
+            margin-top: 30px;
+            margin-left: 20px;
+
+        }
+
+        img {
+            width: 100%;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .information {
+            margin-left: 40px;
+            margin-top: 30px;
+            margin-right: 40px;
+        }
+
+        h6 {
+            color: gray;
+            margin: 20px 0px 20px 0px;
+        }
+
+        h4 {
+            color: blueviolet;
+            margin: 20px 0px 20px 0px;
+        }
+
+        .underLine {
+            text-decoration: line-through;
+            padding: 0px 10px 0px 10px;
+        }
+
+        .offer {
+            color: green;
+        }
+
+        p {
+            margin: 20px 0px 20px 0px;
+        }
+
+        strong {
+            font-size: 17px;
+            padding: 0px 20px 0px 20px;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0px 20px;
+        }
+
+        button {
+            margin: 20px 20px 0px 20px;
+            font-size: 20px;
+            width: 150px;
+            text-transform: uppercase;
+            background-color: blueviolet;
+            color: aliceblue;
+            padding: 10px 0px 10px 0px;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+        #input1 {
+            width:40px;
+
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 align="center">product page</h2>
+    <div class="container">
+
+        <div class="product">
+            <img src="ryan-hoffman-6Nub980bI3I-unsplash.jpg" alt="image loading">
+        </div>
+        <div class="information">
+            <h3>back cotton Tshart</h3>
+            <h6>T-shart</h6>
+
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <h4>Rs. 400 <span class="underLine">Rs. 600</span> <span class="offer">50% off</span></h4>
+            <p>voluptatum minus iure dolorum corporis eos sequi explicabo rem redivhenderit esse vel maxime quisquam
+                odit libero eius Fugiat sunt, aspernatur animi error amet soluta quam voluptatem quaerat expedita unde
+                sit ut! Asperiores totam eaque voluptatem culpa esse maiores perspiciatis amet nostrum necessitatibus
+                ratione id accusamus quibusdam cum fuga ipsum iste nobis minima similique tempora debitis, explicabo
+                labore? Impedit accusantium, obcaecati corrupti officiis quibusdam expedita!</p>
+
+
+
+
+
+            <table>
+                <tr>
+                    <th><strong>color</strong></th>
+                    <td>black</td>
+                </tr>
+                <tr>
+                    <th><strong>availability</strong></th>
+                    <td>3 in stock</td>
+                </tr>
+                <tr>
+                    <th><strong>select size</strong></th>
+                    <td>
+                        <input type="radio" name="btn"> small
+                        <input type="radio" name="btn"> midius
+                        <input type="radio" name="btn">large
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Quntity</th>
+                    <td><input type="number" value="1" id="input1"></td>
+                </tr>
+            </table>
+
+
+
+
+
+
+
+
+
+
+            <button>buy now</button>
+            <button>add to cart</button>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
